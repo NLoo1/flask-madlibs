@@ -4,6 +4,31 @@
 
 {% block content %}
 
+<div class="container min-vh-100 d-flex flex-column justify-content-center align-items-center">
+     <h1 class="h1">Madlibs</h1>
+    <form action="story" class="bg-white p-3 d-flex flex-column align-items-center">
+        <div class="form-group mb-3">
+            <label for="">place: <input required type="text" name="place" id=""></label>
+        </div>
+        <div class="form-group mb-3">
+            <label for="">noun: <input required type="text" name="noun" id=""></label>
+        </div>
+        <div class="form-group mb-3">
+            <label for="">verb: <input required type="text" name="verb" id=""></label>
+        </div>
+        <div class="form-group mb-3 ">
+            <label for="">adjective: <input required type="text" name="adjective" id=""></label>
+        </div>
+        <div class="form-group mb-3">
+            <label for="">plural_noun: <input required type="text" name="plural_noun" id=""></label>
+        </div>
+        <div class="form-group mb-3">
+            <input type="submit" class="btn btn-primary" value="Submit">
+        </div>
+        </form>
+</div>
+
+
     
 
-{% endblock %}
+{% endblock %}  
